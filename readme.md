@@ -2,6 +2,8 @@
 
 A small asyncronous framework for everyone.
 
+Notice: miniasync will NOT recieve further updates; please switch to [ninox-d_async](https://github.com/Bithero-Agency/ninox.d-async)
+
 ## License
 
 The code in this repository is licensed under AGPL-3.0-or-later; for more details see the `LICENSE` file in the repository.

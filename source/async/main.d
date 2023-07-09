@@ -51,6 +51,10 @@ template AsyncLoop(string func) {
         static assert(0, "`" ~ __traits(identifier, __fun) ~ "` needs to be callable with either no arguments or only with `string[]`");
     }
 
+    pragma(msg, "Notice: Notice: miniasync will NOT recieve further updates; please switch to ninox-d_async");
+    pragma(msg, "Notice: Notice: miniasync will NOT recieve further updates; please switch to ninox-d_async");
+    pragma(msg, "Notice: Notice: miniasync will NOT recieve further updates; please switch to ninox-d_async");
+
     int mainAsyncLoop(string[] args) {
         g_async_args = args;
         gscheduler.schedule(&asyncMainWrapper);
